@@ -1,26 +1,6 @@
-html, body {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow: hidden;
-}
-
-.container {
-    margin: auto;
-    margin-top: 5%;
-    height: 100%;
-    width: 70%;
-    text-align: center;
-
-}
-
 .menuContainer {
     position: fixed;
-    left: 0;
+    right: 0;
     z-index: 50;
     display: flex;
     justify-content: space-around;
@@ -29,17 +9,6 @@ body {
     float: right;
     perspective: 1000px;
 }
-.image {
-    width: 80%;
-    height: 20%;
-    margin: 5%;
-}
-
-.center {
-    margin: 5%;
-    text-align: center;
-}
-
 .menuElement {
     position: relative;
 }
@@ -56,10 +25,10 @@ body {
 .menuText {
     position: absolute;
     bottom: 40%;
-    right:40%;
+    right: 40%;
     color: black;
     opacity: 1;
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: monospace;
     font-weight: bold;
     display: none;

@@ -3,9 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../assets/styles/main.css">
-<link rel="stylesheet" href="../assets/styles/test.css">
-<script src="../scripts/script.js"></script>
+<link rel="stylesheet" href="../assets/styles/menu.css">
+<script src="../assets/scripts/main.js"></script>
+<script src="../assets/scripts/jquery.js"></script> 
 <title>Linnu leht</title>
+<script>
+    $(document).ready(function(){ 
+        $.get("menu.html", function(data) {
+            $("#menu").html(data);
+        });
+    }); 
+</script>
 </head>
 <body>
     <div class="container">
@@ -17,28 +25,10 @@
             <input type="text" placeholder="Sisesta">
         </form>
     </div>
-    <div class="menuContainer">
-        <div class="menuElement">
-            <a href="index.html">
-                <img src="../assets/images/birdEx1.jfif" width=200 class="menuImage">
-                <div class="menuText">HOME</div>
-            </a>
-        </div>
-        <br>
-        <div class="menuElement">
-            <a href="index.html">
-                <img src="../assets/images/birdEx2.jfif" width=200 class="menuImage">
-                <div class="menuText">LEARN</div>
-            </a>
-        </div>
-        <br>
-        <div class="menuElement">
-            <a href="index.html">
-                <img src="../assets/images/birdEx3.jfif" width=200 class="menuImage">
-                <div class="menuText">TEST</div>
-            </a>
-        </div>
-    </div>
+    <div id="menu"></div>
+
+
+    
 </body>
 
 </html>
