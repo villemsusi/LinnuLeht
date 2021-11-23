@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="../assets/styles/main.css">
-<script src="../scripts/script.js"></script>
-<title>Linnu leht</title>
-</head>
-<body>
-Content of the document......
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/menu.css">
+    <script src="../assets/scripts/main.js"></script>
+    <script src="../assets/scripts/jquery.js"></script> 
+    <title>Linnu leht</title>
+    <script>
+        $(document).ready(function(){ 
+            $.get("menu.html", function(data) {
+                $("#menu").html(data);
+            });
+        }); 
+    </script>
+    
+</head>    
+
+<body>   
+    
+    <div class="contentArea">
+        <img src="../assets/images/taust1_lõigatud.jpg" class="mainPic">
+        <p>SSSSSSIIIIIISSSSSSSUUUUU </p>
+    </div>
+
+<div id="menu"></div>
 </body>
 
 </html>

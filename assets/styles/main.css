@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-image: url("../images/taust3.jpg");
+    background-attachment:fixed;
+}
+
+background img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+ 
+.mainPic {
+    width: 100%;
+    height: auto;
+    margin:0;
+}
+.contentArea {
+    position: absolute;
+    background-color:lightgoldenrodyellow;
+    opacity:0.99;
+    padding:1%;
+    width:70%;
+    margin:0 15% 15% 15%;
+
+  }
+.container {
+    margin: auto;
+    margin-top: 5%;
+    height: 100%;
+    width: 70%;
+    text-align: center;
+}
+
+.image {
+    width: 80%;
+    height: 20%;
+    margin: 5%;
+}
+
+.center {
+    margin: 5%;
+    text-align: center;
+}
