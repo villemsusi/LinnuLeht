@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    overflow: hidden;
     background-image: url("../images/taust3.jpg");
     background-attachment:fixed;
 }
@@ -33,13 +32,12 @@ background img {
     opacity:0.99;
     padding:1%;
     width:70%;
-    margin:0 15% 15% 15%;
+    margin:0 15% 25% 5%;
 
 }
 
 .container {
-    margin: auto;
-    margin-top: 5%;
+    margin: 5% 15% 25% 5%;
     height: 100%;
     width: 70%;
     text-align: center;

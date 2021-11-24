@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/menu.css">
+    <link rel="stylesheet" href="../assets/styles/info.css">
+    <script src="../assets/scripts/main.js"></script>
+    <script src="../assets/scripts/jquery.js"></script> 
+    <title>Linnu leht</title>
+    <script>
+        $(document).ready(function(){ 
+            $.get("menu.html", function(data) {
+                $("#menu").html(data);
+            });
+        }); 
+    </script>
+    
+</head>    
+
+<body>   
+    <div class="infoContainer">
+        <div class="test" id="info1">
+        </div>
+        <div class="test" id="info2">
+        </div>
+        <div class="test" id="info3">
+        </div>
+    </div>
+
+    <div id="menu"></div>
+</body>
+
+</html>
