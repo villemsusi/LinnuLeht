@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="../assets/styles/menu.css">
 <link rel="stylesheet" href="../assets/styles/test.css">
 <script src="../assets/scripts/main.js"></script>
-<script src="../assets/scripts/jquery.js"></script> 
+<script src="../assets/scripts/jquery.js"></script>
+
 <title>Linnu leht</title>
 <script>
     $(document).ready(function(){ 
@@ -17,20 +18,21 @@
 </script>
 </head>
 <body>
-    <div class="container">
-        <h2>Pealkiri</h2>
-        <div>
-            <img src="../assets/images/placeholder.png" class="image" id="testImage">
+    <div class="container testContainer">
+        <h2>Mis lind see on?</h2>
+        <div class="center">
+            <input type="text" placeholder="Sisesta vastus" id="testInput">
+            <input type="button" value="Vasta" id="testButton">
         </div>
-        <form class="center">
-            <input type="text" placeholder="Sisesta">
-        </form>
+        <p id="feedback"></p>
+        <div class="testArea">
+            <img src="../assets/images/placeholder.png" class="testImage" id="testImage">
+        </div>
+        
     </div>
     <div id="menu"></div>
 
 
-
-    
+    <script src="../assets/scripts/test.js"></script> 
 </body>
-
 </html>
