@@ -1,3 +1,9 @@
+.birdie-pic {
+    height: 100vh;
+    width: 100%;
+    max-height: 100vh;
+}
+
 .wallImage {
     margin: 0;
     padding: 0;
@@ -9,7 +15,7 @@
     position: absolute;
     opacity: 1;
     width:70%;
-    margin:0 15% 25% 5%;
+    margin:0% 15% 25% 5%;
 }
 
 #info1 {
@@ -18,11 +24,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.crow {
-    padding: 5% 0% 25% 50%;
-}
+    padding: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    }
 
 #info2 {
     background: url("../images/naerukajakas_info.jpg") no-repeat center center scroll/*fixed*/;
@@ -30,10 +35,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 5%;
+    margin-bottom: 4%;
 }
-.seagull {
-    padding: 5% 0% 25% 50%;
-    }
 
 #info3 {
     background: url("../images/rasvatihane_info.jpg") no-repeat center center scroll;
@@ -41,9 +45,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.tit {
-    padding: 5% 0% 25% 50%;   
+    padding: 5%;
+    margin-bottom: 4%;
 }
 
 #info4 {
@@ -52,10 +55,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 5%;
+    margin-bottom: 4%;
 }
-.duck {
-    padding: 5% 0% 25% 10%;   
-}
+
 
 #info5 {
     background: url("../images/tuvi_info.jpg") no-repeat center center scroll;
@@ -63,15 +66,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.pigeon {
-    padding: 5% 0% 25% 50%;   
+    padding: 5%;
+    margin-bottom: 4%;
 }
 
 .text-background {
     background-color: lightgoldenrodyellow;
     text-align: left;
-    padding: 5%;
+    padding: 2%;
+    margin: 0% 0% 0% 50%;
     opacity: 0.6;
 }

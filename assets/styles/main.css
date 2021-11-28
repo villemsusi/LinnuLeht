@@ -29,34 +29,19 @@ background img {
 .mainPic {
     width: 100%;
     height: auto;
-    margin:0;
 }
+
 .contentArea {
     position: absolute;
     background-color:lightgoldenrodyellow;
     opacity:0.99;
-    padding:1%;
-    width:70%;
+    width:77%;
     height: 100vh;
     max-height: 100vh;
-    margin:0 15% 25% 5%;
-
+    margin:3% 5% 25% 5%;
+    
 }
 
-.container {
-    margin: 5% 15% 25% 5%;
-    height: 100%;
-    width: 70%;
-    text-align: center;
-}
-
-.image {
-    width: 80%;
-    height: 20%;
-    margin: 5%;
-}
-
-.center {
-    margin: 5%;
-    text-align: center;
+.textArea {
+    padding: 5%;
 }
