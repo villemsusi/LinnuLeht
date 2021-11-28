@@ -20,21 +20,35 @@
 }
 
 #info1 {
-    background: url("../images/kaamel.jpg") no-repeat center center scroll;
+    background: url("../images/hallvares_info.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #info2 {
-    background: url("../images/taust1.jpg") no-repeat center center scroll/*fixed*/;
+    background: url("../images/naerukajakas_info.jpg") no-repeat center center scroll/*fixed*/;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 #info3 {
-    background: url("../images/kaamel.jpg") no-repeat center center scroll;
+    background: url("../images/rasvatihane_info.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#info4 {
+    background: url("../images/sinikael-part_info.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#info5 {
+    background: url("../images/tuvi_info.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

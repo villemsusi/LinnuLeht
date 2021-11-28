@@ -1,6 +1,7 @@
 .menuContainer {
     position: fixed;
     right: 0;
+    left: 85%;
     z-index: 50;
     display: flex;
     justify-content: space-around;
