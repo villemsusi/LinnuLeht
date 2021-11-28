@@ -42,6 +42,12 @@ background img {
     
 }
 
+
 .textArea {
     padding: 5%;
+}
+.center {
+    margin: 2%;
+    text-align: center;
+
 }
