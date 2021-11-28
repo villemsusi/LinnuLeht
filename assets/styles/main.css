@@ -37,6 +37,8 @@ background img {
     opacity:0.99;
     padding:1%;
     width:70%;
+    height: 100vh;
+    max-height: 100vh;
     margin:0 15% 25% 5%;
 
 }
