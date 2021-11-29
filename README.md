@@ -3,7 +3,7 @@
 ![Welcome!](./screenshot.png)
 
 
-There are many a bird in in the world and some of them reside in Estonia. Well, at least part-time. And we are happy to host the party! We are also happy to have made a [webpage](https://kodu.ut.ee/~susi1417/LinnuLeht/views/index.html) about five of our favourite birdies and we want share..  
+There are many a bird in in the world and some of them reside in Estonia. Well, at least part-time. And we are happy to host the party! We are also happy to have made a [webpage](https://kodu.ut.ee/~susi1417/LinnuLeht/views/index.html) about five of our favourite birdies and we want to share..  
 ..both with you guys that are just browsing github..  
 ..and with our lecturers who gave us the opportunity to create something:)  
 Can we get a round of applause for our lecturers who may or may no be grading us? Those guys are great!
