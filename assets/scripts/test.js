@@ -1,9 +1,9 @@
 const test = {
-    0: [1, "hallvares_test.jpg", "hallvares"],
-    1: [2, "naerukajakas_test.jpg", "naerukajakas"],
-    2: [3, "rasvatihane_test.jpg", "rasvatihane"],
-    3: [4, "sinikael-part_test.jpg", "sinikael-part"],
-    4: [5, "tuvi_test.jpg", "tuvi"],
+    0: [1, "hallvares_test.jpg", ["hallvares", "hall vares"]],
+    1: [2, "naerukajakas_test.jpg", ["naerukajakas"]],
+    2: [3, "rasvatihane_test.jpg", ["rasvatihane"]],
+    3: [4, "sinikael-part_test.jpg", ["sinikaelpart", "sinikael-part"]],
+    4: [5, "tuvi_test.jpg", ["kodutuvi"]],
 }
 
 function randomInt(max) {
@@ -22,19 +22,26 @@ console.log(cycle)
 
 function checkAnswer() {
     input = document.getElementById("testInput").value;
-    if (ans == input.toLowerCase()) {
-        if (cycle.length != 0) {
-            document.getElementById("feedback").style.color="green";
-            document.getElementById("feedback").innerHTML = "Õige vastus!"
-        } else {
-            document.getElementById("feedback").style.color="green";
-            document.getElementById("feedback").innerHTML = "Kõik õige!"
+    let correct = false;
+    for (let i = 0; i < ans.length; i++) {
+        if (ans[i] == input.toLowerCase()) {
+            if (cycle.length != 0) {
+                document.getElementById("feedback").style.color="green";
+                document.getElementById("feedback").innerHTML = "Õige vastus!"
+                correct = true;
+                break;
+            } else {
+                document.getElementById("feedback").style.color="green";
+                document.getElementById("feedback").innerHTML = "Kõik õige!"
+                correct = true;
+                break;
+            }
+            document.getElementById("testInput").setAttribute("value", "");
+            nextQuestion();
+        } else if (!correct) {
+            document.getElementById("feedback").style.color="blue";
+            document.getElementById("feedback").innerHTML = "Proovi veel!"
         }
-        document.getElementById("testInput").setAttribute("value", "");
-        nextQuestion();
-    } else {
-        document.getElementById("feedback").style.color="blue";
-        document.getElementById("feedback").innerHTML = "Proovi veel!"
     }
 }
 
