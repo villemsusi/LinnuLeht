@@ -29,15 +29,13 @@ function checkAnswer() {
                 document.getElementById("feedback").style.color="green";
                 document.getElementById("feedback").innerHTML = "Õige vastus!"
                 correct = true;
-                break;
             } else {
                 document.getElementById("feedback").style.color="green";
                 document.getElementById("feedback").innerHTML = "Kõik õige!"
                 correct = true;
-                break;
             }
-            document.getElementById("testInput").setAttribute("value", "");
             nextQuestion();
+            break;
         } else if (!correct) {
             document.getElementById("feedback").style.color="blue";
             document.getElementById("feedback").innerHTML = "Proovi veel!"
@@ -68,6 +66,7 @@ document.getElementById("testButton").addEventListener("click", checkAnswer);
 document.getElementById("testInput").addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
         checkAnswer();
+        document.getElementById("testInput").setAttribute("value", "");
     }
 });
 
