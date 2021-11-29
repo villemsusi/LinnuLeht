@@ -1,3 +1,5 @@
+
+// Küsimuste "andmebaas"
 const test = {
     0: [1, "hallvares_test.jpg", ["hallvares", "hall vares"]],
     1: [2, "naerukajakas_test.jpg", ["naerukajakas"]],
@@ -6,24 +8,26 @@ const test = {
     4: [5, "tuvi_test.jpg", ["kodutuvi"]],
 }
 
+// Suvalise täisarvu masin
 function randomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
+//Küsimuste järjekorra masin
 let cycle = [0,1,2,3,4];
-
 for(let i = cycle.length - 1; i > 0; i--){
     const j = Math.floor(Math.random() * i)
     const temp = cycle[i]
     cycle[i] = cycle[j]
     cycle[j] = temp
-  }
-console.log(cycle)
+}
 
+
+//Vastuse kontrollimine
 function checkAnswer() {
     input = document.getElementById("testInput").value;
     let correct = false;
-    for (let i = 0; i < ans.length; i++) {
+    for (let i = 0; i < ans.length; i++) {  //Käib läbi selle küsimuse kõik vastusevariatsioonid
         if (ans[i] == input.toLowerCase()) {
             if (cycle.length != 0) {
                 document.getElementById("feedback").style.color="green";
@@ -43,7 +47,7 @@ function checkAnswer() {
     }
 }
 
-
+// Järgmise küsimuse "spawn-imis" masin
 let img;
 function nextQuestion() {
     for (key in test) {
@@ -62,6 +66,8 @@ function nextQuestion() {
 
 nextQuestion();
 
+
+// Enter-klahvi ja "vasta" nupu vajutusele reageerimine
 document.getElementById("testButton").addEventListener("click", checkAnswer);
 document.getElementById("testInput").addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
