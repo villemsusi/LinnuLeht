@@ -6,7 +6,7 @@
 There are many a bird in the world and some of them reside in Estonia. Well, at least part-time. And we are happy to host the party! We are also happy to have made a [webpage](https://kodu.ut.ee/~susi1417/LinnuLeht/views/index.html) about five of our favourite birdies and we want to share..  
 ..both with you guys that are just browsing github..  
 ..and with our lecturers who gave us the opportunity to create something:)  
-Can we get a round of applause for our lecturers who may or may not be grading us? Those guys are great! Really great! Just great!
+Can we get a round of applause for our lecturers who may or may not be grading us? Those guys are great! Just the best!
 
 
 ### Table of Contents
